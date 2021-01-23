@@ -1,6 +1,6 @@
 # PotPvP
 # Command(s)
-* /kit | Gives you the a soupkit #PotPvP
+* /kit | Gives you the potkit #PotPvP
 * /potrefill | Gives you more potions #PotPvP
 * /spawn | Teleports you to the servers spawn #PotPvP
 * /stats | Shows your or another players stats #PotPvP
