@@ -1,0 +1,72 @@
+---
+# Use item/enchantmet/effect ids
+
+# Kit
+HelmetName: "§o§bPotPvP Helmet"
+Helmet: "306"
+ChestplateName: "§o§bPotPvP ChestPlate"
+Chestplate: "307"
+LeggingsName: "§o§bPotPvP Leggings"
+Leggings: "308"
+BootsName: "§o§bPotPvP Boots"
+Boots: "309"
+WeaponName: "§o§bPotPvP Sword"
+Weapon: "267"
+
+# Enchantments
+Enchantment1: "0"
+Level1: "2"
+Enchantment2: "17"
+Level2: "2"
+AllowWeaponToGetEnchantTwo: "True" # True or False
+
+# Effects
+Effect1: "1"
+Duration1: "99999"
+Amplifier1: "0"
+Effect2: "1"
+Duration2: "99999"
+Amplifier2: "0"
+
+# Potion
+# {line} => \n
+PotName: "§o§l§4PvPPotion"
+PotLore: ""
+
+# Kill health/soup
+KillHealth: "True"
+HealthGainedPerKill: "3"
+KillPot: "True"
+PotGainedPerKill: "5"
+
+# KillStreakMessages
+# When killstreak messages are displayed
+KillStreaks:
+  - 4
+  - 9
+  - 19
+  - 29
+  - 49
+  - 69
+# {player} => The Player
+# {killstreak} => The Players killstreak
+KillStreakMessage: "§b§lPotPvP §o§r§8» §b{player} §gis on a §b{killstreak} §gkill streak"
+
+# Other Plugin Spcs
+# {player} => The player
+# {killer} => The Killer
+# {victim} => The Victim
+JoinMsg: "§b+ §8{player}"
+QuitMsg: "§c- §8{player}"
+KillMsg: "§b§lPotPvP §o§r§8» §b{killer} §ghas obliterated §c{victim}"
+
+OnJoinAdventureMode: "True"
+AllowDeathDrops: "False"
+NoFall: "True"
+AntiVoid: "True"
+NoHunger: "True"
+SpawnOnJoin: "True"
+KitOnJoin: "True"
+KitOnRespawn: "True"
+AllowDroppingItems: "False"
+...
